@@ -6,6 +6,7 @@ namespace UnixToMinecraftDays
     {
         static void Main(string[] args)
         {
+            // My first ever fully self-made program
             long ans = Convert.ToInt32(Console.ReadLine());
             long curr = DateTimeOffset.Now.ToUnixTimeSeconds();
             long time = curr - ans;
